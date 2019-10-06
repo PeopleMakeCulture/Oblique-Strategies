@@ -3,7 +3,7 @@ module.exports = [
   "Accept advice",
   "Accretion",
   "A line has two sides",
-  "Allow an easement (an easement is the abandonment of a stricture)",
+  "Allow an easement (an easement is the abandonment of a structure)",
   "Are there sections?",
   "Consider transitions",
   "Ask people to work against their better judgement",
