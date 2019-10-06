@@ -71,7 +71,7 @@ module.exports = [
   "Look closely at the most embarrassing details and amplify them",
   "Lowest common denominator check -single beat -single note -single riff",
   "Make a blank valuable by putting it in an exquisite frame",
-  "Make an exhaustive list of everything you might do and do the lastthing on the list",
+  "Make an exhaustive list of everything you might do and do the last thing on the list",
   "Make a sudden, destructive unpredictable action; incorporate",
   "Mechanicalize something idiosyncratic",
   "Mute and continue",
