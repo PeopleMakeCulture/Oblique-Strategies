@@ -8,11 +8,11 @@ class App extends React.Component {
     strategy: ""
   };
   
+  //TO DO: modify to call OS API instead of hard coded strategies
   async componentDidMount(){
     const strategy = strategies[
               Math.floor(Math.random() * strategies.length)
             ]
-    console.log(strategy)
     await this.setState({strategy})
   }
 
