@@ -4,7 +4,7 @@ import strategies from "../utils/obliqueStrategies.js";
 
 class App extends React.Component {
 
-  this.state = {
+  state = {
     strategy: ""
   };
   
@@ -12,6 +12,7 @@ class App extends React.Component {
     const strategy = strategies[
               Math.floor(Math.random() * strategies.length)
             ]
+    console.log(strategy)
     await this.setState({strategy})
   }
 
