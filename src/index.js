@@ -3,11 +3,16 @@ import { render } from "react-dom";
 import strategies from "../utils/obliqueStrategies.js";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      strategies
-    };
+
+  this.state = {
+    strategy: ""
+  };
+  
+  async componentDidMount(){
+    const strategy = strategies[
+              Math.floor(Math.random() * strategies.length)
+            ]
+    await this.setState({strategy})
   }
 
   render() {
@@ -15,9 +20,7 @@ class App extends React.Component {
       <div>
         <text>
           {
-            this.state.strategies[
-              Math.floor(Math.random() * this.state.strategies.length)
-            ]
+            this.state.strategy
           }
         </text>
       </div>
